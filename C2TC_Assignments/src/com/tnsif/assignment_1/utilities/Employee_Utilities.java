@@ -1,7 +1,6 @@
+package com.tnsif.assignment_1.utilities;
 
-package assignments.com.tnsif.assignment1.utilities;
-
-import assignments.com.tnsif.assignment1.employee.Employee;
+import com.tnsif.assignment_1.employees.Employee;
 import java.util.List;
 
 public class Employee_Utilities {

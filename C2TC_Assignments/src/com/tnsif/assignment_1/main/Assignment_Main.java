@@ -1,10 +1,9 @@
+package com.tnsif.assignment_1.main;
 
-package assignments.com.tnsif.assignment1.main;
-
-import assignments.com.tnsif.assignment1.employee.Manager;
-import assignments.com.tnsif.assignment1.employee.Developer;
-import assignments.com.tnsif.assignment1.utilities.Employee_Utilities;
-import assignments.com.tnsif.assignment1.employee.Employee;
+import com.tnsif.assignment_1.employees.Manager;
+import com.tnsif.assignment_1.employees.Developer;
+import com.tnsif.assignment_1.utilities.Employee_Utilities;
+import com.tnsif.assignment_1.employees.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
