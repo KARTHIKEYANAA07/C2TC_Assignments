@@ -1,10 +1,9 @@
-
-package assignment1.employee;
+package assignments.com.tnsif.assignment1.employee;
 
 public class Developer extends Employee {
     private String programmingLanguage;
 
-    public Developer(String name, int employeeId, double salary, String programmingLanguage) {
+    public Developer(String name, int employeeId, int salary, String programmingLanguage) {
         super(name, employeeId, salary);
         this.programmingLanguage = programmingLanguage;
     }
@@ -15,5 +14,11 @@ public class Developer extends Employee {
 
     public void setProgrammingLanguage(String programmingLanguage) {
         this.programmingLanguage = programmingLanguage;
+    }
+
+    @Override
+    public void display() {
+        super.display();
+        System.out.println("Programming Language: " + programmingLanguage);
     }
 }
